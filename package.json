@@ -1,0 +1,33 @@
+{
+  "name": "et-schematics",
+  "version": "0.0.0",
+  "description": "A blank schematics",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -p tsconfig.json -w",
+    "test": "npm run build && jasmine src/**/*.test.js",
+    "release": "release-it"
+  },
+  "ng-add": {
+    "save": "devDependencies"
+  },
+  "keywords": [
+    "schematics"
+  ],
+  "author": "info@fabianbentz.de",
+  "license": "MIT",
+  "schematics": "./src/collection.json",
+  "dependencies": {
+    "@angular-devkit/core": "^16.2.0",
+    "@angular-devkit/schematics": "^16.2.0",
+    "@angular/cdk": "^16.2.0",
+    "@schematics/angular": "^16.2.0",
+    "release-it": "^16.1.5",
+    "typescript": "~5.1.3"
+  },
+  "devDependencies": {
+    "@types/jasmine": "~4.3.0",
+    "@types/node": "^16.11.7",
+    "jasmine": "^4.0.0"
+  }
+}
