@@ -1,6 +1,6 @@
 {
   "name": "@espressotutorialsgmbh/et-schematics",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Some custom angular schematics for Espresso Tutorials prjects.",
   "scripts": {
     "build": "tsc -p tsconfig.json",
