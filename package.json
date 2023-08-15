@@ -1,12 +1,19 @@
 {
-  "name": "et-schematics",
+  "name": "@espressotutorialsgmbh/et-schematics",
   "version": "0.0.0",
-  "description": "A blank schematics",
+  "description": "Some custom angular schematics for Espresso Tutorials prjects.",
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "dev": "tsc -p tsconfig.json -w",
     "test": "npm run build && jasmine src/**/*.test.js",
-    "release": "release-it"
+    "release": "read -p 'GITHUB_TOKEN: ' GITHUB_TOKEN && export GITHUB_TOKEN=$GITHUB_TOKEN && release-it"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/espressotutorials/et-schematics.git"
+  },
+  "bugs": {
+    "url": "https://github.com/espressotutorials/et-schematics/issues"
   },
   "ng-add": {
     "save": "devDependencies"
@@ -29,5 +36,10 @@
     "@types/jasmine": "~4.3.0",
     "@types/node": "^16.11.7",
     "jasmine": "^4.0.0"
+  },
+  "release-it": {
+    "github": {
+      "release": true
+    }
   }
 }
