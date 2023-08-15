@@ -1,6 +1,6 @@
-# Getting Started With Schematics
+# Espresso Tutorials custom schematics
 
-This repository is a basic Schematic implementation that serves as a starting point to create and publish Schematics to NPM.
+This repository contains custom schematics for generating Angular components and services for Espresso Tutorials angular projects.
 
 ### Testing
 
@@ -22,7 +22,21 @@ To publish, simply do:
 
 ```bash
 npm run build
-npm publish
+npm run release
 ```
 
-That's it!
+## Usage
+
+### Installation
+```bash
+npm install @espressotutorialsgmbh/et-schematics
+```
+
+### Generate a page
+```bash
+ng g @espressotutorialsgmbh/et-schematics:add-page --name={NAME} --path={PATH}
+```
+
+#### Attributes
+`name` - The name of the page to generate.\
+`path` - The path at which to create the page. If not specified, the page will be created at the default path "pages" of the project.
