@@ -1,7 +1,7 @@
 import { Rule, SchematicContext, Tree } from '@angular-devkit/schematics';
 import { strings } from '@angular-devkit/core';
 
-export function addPage(options: any): Rule {
+export default function addPage(options: any): Rule {
   return (tree: Tree, context: SchematicContext) => {
     const componentPath = `src/app/${strings.dasherize(options.path)}/${strings.dasherize(options.name)}`;
 
