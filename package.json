@@ -1,6 +1,6 @@
 {
   "name": "@espressotutorialsgmbh/et-schematics",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Some custom angular schematics for Espresso Tutorials prjects.",
   "scripts": {
     "build": "ng-packagr -p ng-package.json && npm run build:schematics && npm run copy:schematics",
