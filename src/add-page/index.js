@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.addPage = void 0;
 const core_1 = require("@angular-devkit/core");
 function addPage(options) {
     return (tree, context) => {
@@ -87,5 +88,5 @@ export class ${core_1.strings.classify(options.name)}Module { }
         return tree;
     };
 }
-exports.default = addPage;
+exports.addPage = addPage;
 //# sourceMappingURL=index.js.map

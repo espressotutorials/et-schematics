@@ -1,2 +1,2 @@
 import { Rule } from '@angular-devkit/schematics';
-export default function addPage(options: any): Rule;
+export declare function addPage(options: any): Rule;
