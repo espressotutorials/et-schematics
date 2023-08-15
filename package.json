@@ -4,6 +4,9 @@
   "description": "Some custom angular schematics for Espresso Tutorials prjects.",
   "scripts": {
     "build": "tsc -p tsconfig.json",
+    "build-package": "ng-packagr -p package.json && npm run build:schematics && npm run copy:schematics",
+    "build:schematics": "tsc -p tsconfig.json --outDir ./dist",
+    "copy:schematics": "cpr src dist --overwrite --deleteFirst",
     "dev": "tsc -p tsconfig.json -w",
     "test": "npm run build && jasmine src/**/*.test.js",
     "release": "read -p 'GITHUB_TOKEN: ' GITHUB_TOKEN && export GITHUB_TOKEN=$GITHUB_TOKEN && release-it"
@@ -16,7 +19,7 @@
     "url": "https://github.com/espressotutorials/et-schematics/issues"
   },
   "ng-add": {
-    "save": "devDependencies"
+    "save": false
   },
   "keywords": [
     "schematics"
@@ -29,6 +32,7 @@
     "@angular-devkit/schematics": "^16.2.0",
     "@angular/cdk": "^16.2.0",
     "@schematics/angular": "^16.2.0",
+    "ng-packagr": "^16.2.0",
     "release-it": "^16.1.5",
     "typescript": "~5.1.3"
   },

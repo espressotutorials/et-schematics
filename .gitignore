@@ -1,8 +1,5 @@
-
 # Outputs
-src/**/*.js
-src/**/*.js.map
-src/**/*.d.ts
+dist/
 
 # IDEs
 .idea/
@@ -17,5 +14,3 @@ yarn-error.log*
 # Mac OSX Finder files.
 **/.DS_Store
 .DS_Store
-
-dist/

@@ -3,8 +3,13 @@
   "schematics": {
     "add-page": {
       "factory": "./add-page/index#addPage",
-      "description": "Add page module to project",
+      "description": "Add a custom page module to project.",
       "schema": "./add-page/schema.json"
+    },
+    "ng-add": {
+      "description": "Add a custom page module to project.",
+      "factory": "./ng-add/index#ngAdd",
+      "schema": "./ng-add/schema.json"
     }
   }
 }
