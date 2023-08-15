@@ -13,7 +13,7 @@
   ],
   "author": "info@fabianbentz.de",
   "license": "MIT",
-  "schematics": "./schematics/collection.json",
+  "schematics": "./src/collection.json",
   "ngPackage": {
     "dest": "dist",
     "lib": {
