@@ -6,7 +6,7 @@
     "build": "tsc -p tsconfig.json",
     "dev": "tsc -p tsconfig.json -w",
     "test": "npm run build && jasmine src/**/*.test.js",
-    "release": "read -p 'GITHUB_TOKEN: ' GITHUB_TOKEN && export GITHUB_TOKEN=$GITHUB_TOKEN && release-it"
+    "release": "release-it"
   },
   "keywords": [
     "schematics"
