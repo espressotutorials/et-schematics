@@ -31,19 +31,19 @@
     "save": "devDependencies"
   },
   "devDependencies": {
-    "@angular-devkit/core": "^17.0.5",
-    "@angular-devkit/schematics": "^17.0.5",
-    "@angular/cdk": "^17.0.2",
-    "@angular/compiler": "^17.0.5",
-    "@angular/compiler-cli": "^17.0.5",
-    "@angular/core": "^17.0.5",
-    "@schematics/angular": "^17.0.5",
+    "@angular-devkit/core": "^18.0.3",
+    "@angular-devkit/schematics": "^18.0.3",
+    "@angular/cdk": "^18.0.2",
+    "@angular/compiler": "^18.0.2",
+    "@angular/compiler-cli": "^18.0.2",
+    "@angular/core": "^18.0.2",
+    "@schematics/angular": "^18.0.3",
     "@types/jasmine": "~4.3.0",
     "@types/node": "^16.11.7",
     "jasmine": "^4.0.0",
-    "ng-packagr": "^17.0.2",
-    "release-it": "^17.0.0",
-    "typescript": "~5.2.1"
+    "ng-packagr": "^18.0.0",
+    "release-it": "^17.3.0",
+    "typescript": "^5.4.5"
   },
   "release-it": {
     "github": {
