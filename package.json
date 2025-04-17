@@ -1,7 +1,7 @@
 {
   "name": "@espressotutorialsgmbh/et-schematics",
   "version": "0.0.7",
-  "description": "Some custom angular schematics for Espresso Tutorials prjects.",
+  "description": "Some custom angular schematics for Espresso Tutorials projects.",
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "dev": "tsc -p tsconfig.json -w",
@@ -31,19 +31,19 @@
     "save": "devDependencies"
   },
   "devDependencies": {
-    "@angular-devkit/core": "^18.0.3",
-    "@angular-devkit/schematics": "^18.0.3",
-    "@angular/cdk": "^18.0.2",
-    "@angular/compiler": "^18.0.2",
+    "@angular-devkit/core": "^19.2.8",
+    "@angular-devkit/schematics": "^19.2.8",
+    "@angular/cdk": "^19.2.10",
+    "@angular/compiler": "^19.2.7",
     "@angular/compiler-cli": "^18.0.2",
-    "@angular/core": "^18.0.2",
-    "@schematics/angular": "^18.0.3",
+    "@angular/core": "^19.2.7",
+    "@schematics/angular": "^19.2.8",
     "@types/jasmine": "~4.3.0",
     "@types/node": "^16.11.7",
     "jasmine": "^4.0.0",
-    "ng-packagr": "^18.0.0",
-    "release-it": "^17.3.0",
-    "typescript": "^5.4.5"
+    "ng-packagr": "^19.2.2",
+    "release-it": "^18.1.2",
+    "typescript": "^5.6.3"
   },
   "release-it": {
     "github": {
